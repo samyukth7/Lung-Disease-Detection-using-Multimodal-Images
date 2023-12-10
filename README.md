@@ -1,4 +1,4 @@
-# Ensemble Model for Lung Disease Detection using Multimodal-Images and GUI-Website
+# Ensemble Model for Lung Disease Detection using Multimodal-Images and Breathe Easy Website
 ![GitHub Logo](https://github.com/samyukth7/Ensamble-Model-for-Lung-Disease-Detection-using-Multimodal-Images/blob/main/Images/1st%20page.png)
 ## Website(GUI)
 ![GitHub Logo](https://github.com/samyukth7/Ensamble-Model-for-Lung-Disease-Detection-using-Multimodal-Images/blob/main/Images/fine.png)
