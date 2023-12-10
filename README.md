@@ -6,14 +6,13 @@
 ## Description
  
 In this project, we used deep learning methods to classify lung diseases
-using the VGG16 and ResNet50 models.The ResNet50 model was trained on a multiclass classification issue with five
+using the VGG16 and ResNet50 models. In contrast to the ResNet50
+model, which was trained on a multiclass classification issue with five
 classes, the VGG16 model was trained on a binary classification problem
 with two classes. Our experimental findings demonstrated the utility of
-both models in categorising lung illnesses, with the ResNet50 model performing better than VGG 16
-model when it comes to CT images whereas on the other hand  we noted
-that the VGG16 model outperformed the Resnet50 model when it comes to Xray images.
+both models in categorising lung illnesses.
 Additionally, we implemented both the models in Flask, enabling
-us to create a web application for classifying lung diseases. Medical practitioners can submit chest X-ray and CT scan images into this user-friendly
+us to create a web application for classifying lung diseases. Medical practiationers can submit chest X-ray and CT scan images into this user-friendly
 web tool to get instantaneous predictions on the existence of lung disease.
 
 Some of the lung diseases that can be detected are given below:
