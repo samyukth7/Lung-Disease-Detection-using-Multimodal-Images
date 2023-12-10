@@ -5,7 +5,18 @@
 
 ## Description
  
-This project implements a web application for detecting various chest conditions, including pneumonia in X-ray images (indicated as "Pneumonia") and different types of lung cancers, such as Adenocarcinoma, Large cell carcinoma, Squamous cell carcinoma, and COVID-19 in CT scans. The application utilizes two deep learning models: VGG16 for X-ray images and ResNet-50 for CT scans. These models are served through a Flask web server, allowing users to upload chest images and receive predictions for a range of respiratory conditions.
+In this project, we used deep learning methods to classify lung diseases
+using the VGG16 and ResNet50 models.The ResNet50 model was trained on a multiclass classification issue with five
+classes, the VGG16 model was trained on a binary classification problem
+with two classes. Our experimental findings demonstrated the utility of
+both models in categorising lung illnesses, with the ResNet50 model performing better than VGG 16
+model when it comes to CT images whereas on the other hand  we noted
+that the VGG16 model outperformed the Resnet50 model when it comes to Xray images.
+Additionally, we implemented both the models in Flask, enabling
+us to create a web application for classifying lung diseases. Medical practitioners can submit chest X-ray and CT scan images into this user-friendly
+web tool to get instantaneous predictions on the existence of lung disease.
+
+Some of the lung diseases that can be detected are given below:
 
 ## Adenocarcinoma
 ![GitHub Logo](https://github.com/samyukth7/Ensamble-Model-for-Lung-Disease-Detection-using-Multimodal-Images/blob/main/Images/andro.png)
@@ -65,10 +76,6 @@ This project implements a web application for detecting various chest conditions
 3. Click the 'Detect' button to get predictions from both models.
 4. View the results displayed on the web page.
 
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
