@@ -6,8 +6,8 @@
 ## Description
  
 In this project, we used deep learning methods to classify lung diseases
-using the VGG16 and ResNet50 models. In contrast to the ResNet50
-model, which was trained on a multiclass classification issue with five
+using the VGG16 and ResNet50 models. The ResNet50
+model, was trained on a multiclass classification issue with five
 classes, the VGG16 model was trained on a binary classification problem
 with two classes. Our experimental findings demonstrated the utility of
 both models in categorising lung illnesses.
