@@ -5,7 +5,7 @@
 
 ## Description
  
-In this project, we used deep learning methods to classify lung diseases
+In this project, we used deep learning methods to classify lung disease
 using the VGG16 and ResNet50 models. The ResNet50
 model, was trained on a multiclass classification issue with five
 classes, the VGG16 model was trained on a binary classification problem
